@@ -20,7 +20,7 @@ internal class Program
         string meaning = dictionary.Get(word);
         if (meaning != null)
         {
-            Console.WriteLine($"'the {word}' means: {meaning}");
+            Console.WriteLine($"'{word}' means: {meaning}");
         }
         else
         {
